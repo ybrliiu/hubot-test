@@ -2,8 +2,14 @@
     "compilerOptions": {
         "target": "es2018",
         "module": "commonjs",
-        "sourceMap": true,
+        "sourceMap": false,
         "rootDir": "src/",
-        "outDir": "scripts/"
+        "outDir": "scripts/",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
     }
 }

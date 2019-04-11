@@ -9,4 +9,3 @@ module.exports = (robot) => {
         msg.reply('What is this...');
     });
 };
-//# sourceMappingURL=hello-world.js.map
